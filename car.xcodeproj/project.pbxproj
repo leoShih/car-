@@ -12,6 +12,11 @@
 		B35E52CE1F01488500752845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35E52CC1F01488500752845 /* Main.storyboard */; };
 		B35E52D01F01488500752845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35E52CF1F01488500752845 /* Assets.xcassets */; };
 		B35E52D31F01488500752845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35E52D11F01488500752845 /* LaunchScreen.storyboard */; };
+		B35E52DB1F014D4E00752845 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35E52DA1F014D4E00752845 /* mainViewController.swift */; };
+		B35E52DD1F014D5800752845 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35E52DC1F014D5800752845 /* DetailViewController.swift */; };
+		B392A7811F028E0800A8C509 /* Macan.txt in Resources */ = {isa = PBXBuildFile; fileRef = B392A7801F028E0800A8C509 /* Macan.txt */; };
+		B392A7841F028E1500A8C509 /* 718 Caymen.txt in Resources */ = {isa = PBXBuildFile; fileRef = B392A7821F028E1500A8C509 /* 718 Caymen.txt */; };
+		B392A7851F028E1500A8C509 /* 911 GTS.txt in Resources */ = {isa = PBXBuildFile; fileRef = B392A7831F028E1500A8C509 /* 911 GTS.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		B35E52CF1F01488500752845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B35E52D21F01488500752845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B35E52D41F01488500752845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B35E52DA1F014D4E00752845 /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		B35E52DC1F014D5800752845 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B392A7801F028E0800A8C509 /* Macan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Macan.txt; sourceTree = "<group>"; };
+		B392A7821F028E1500A8C509 /* 718 Caymen.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "718 Caymen.txt"; sourceTree = "<group>"; };
+		B392A7831F028E1500A8C509 /* 911 GTS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "911 GTS.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,14 @@
 				B35E52C81F01488500752845 /* AppDelegate.swift */,
 				B35E52CA1F01488500752845 /* ViewController.swift */,
 				B35E52CC1F01488500752845 /* Main.storyboard */,
+				B35E52DA1F014D4E00752845 /* mainViewController.swift */,
+				B35E52DC1F014D5800752845 /* DetailViewController.swift */,
 				B35E52CF1F01488500752845 /* Assets.xcassets */,
 				B35E52D11F01488500752845 /* LaunchScreen.storyboard */,
 				B35E52D41F01488500752845 /* Info.plist */,
+				B392A7821F028E1500A8C509 /* 718 Caymen.txt */,
+				B392A7831F028E1500A8C509 /* 911 GTS.txt */,
+				B392A7801F028E0800A8C509 /* Macan.txt */,
 			);
 			path = car;
 			sourceTree = "<group>";
@@ -126,6 +141,9 @@
 				B35E52D31F01488500752845 /* LaunchScreen.storyboard in Resources */,
 				B35E52D01F01488500752845 /* Assets.xcassets in Resources */,
 				B35E52CE1F01488500752845 /* Main.storyboard in Resources */,
+				B392A7811F028E0800A8C509 /* Macan.txt in Resources */,
+				B392A7851F028E1500A8C509 /* 911 GTS.txt in Resources */,
+				B392A7841F028E1500A8C509 /* 718 Caymen.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +156,8 @@
 			files = (
 				B35E52CB1F01488500752845 /* ViewController.swift in Sources */,
 				B35E52C91F01488500752845 /* AppDelegate.swift in Sources */,
+				B35E52DB1F014D4E00752845 /* mainViewController.swift in Sources */,
+				B35E52DD1F014D5800752845 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +319,7 @@
 				B35E52D91F01488500752845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
